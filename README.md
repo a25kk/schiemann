@@ -1,4 +1,4 @@
 cs
 ==
 
-Dr. Christian Schiemann Kieferorthopäde buildout based Website
+This repository holds the configuration and site packages for the buildout-based website.
