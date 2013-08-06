@@ -3,6 +3,7 @@
 *.egg
 *.EGG
 *.EGG-INFO
+.codeintel
 bin
 build
 develop-eggs
@@ -22,4 +23,14 @@ var
 *.pyo
 *-ck.js
 etc/**/*
+src/plone.app.blocks
+src/plone.app.contenttypes
+src/plone.app.tiles
+src/plone.tiles
+src/ade25.fabfiles
+src/vwc.tiles
+src/vwc.toolbar
+src/vwc.typekit
+src/sauna.reload
+src/watchdog
 .DS_Store
