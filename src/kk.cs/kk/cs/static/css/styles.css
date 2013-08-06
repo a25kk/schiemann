@@ -31,7 +31,7 @@ code {
 }
 a {
   outline: none !important;
-  color: #333333;
+  color: #9999cc;
 }
 table {
   border-spacing: 0;
@@ -109,7 +109,7 @@ h4 a {
 }
 a:link,
 a:visited {
-  color: #333333;
+  color: #9999cc;
   outline: none;
 }
 a:focus img {
@@ -625,15 +625,15 @@ body#content {
 }
 #content a:link,
 dl.portlet a:link {
-  color: #333333;
+  color: #9999cc;
 }
 #content a:visited,
 dl.portlet a:visited {
-  color: #333333;
+  color: #9999cc;
 }
 #content a:hover,
 dl.portlet a:hover {
-  color: #333333;
+  color: #9999cc;
 }
 #content a:target {
   background-color: #ffb;
@@ -645,6 +645,7 @@ dl.portlet a:hover {
 #content ul {
   list-style-type: none;
   margin-left: 0px;
+  font-size: 0.8em;
 }
 #content ol,
 dl.portlet ol {
@@ -688,7 +689,7 @@ dl.portlet li {
 #content div.documentByLine a:link,
 #content div.documentByLine a:visited,
 #content div.documentByLine a:hover {
-  color: #333333 !important;
+  color: #9999cc !important;
 }
 #content .discreet,
 #sidebar .discreet {
@@ -733,7 +734,7 @@ dl.portlet li {
   line-height: 1.5em;
   font-weight: normal;
   font-family: Arial;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 #content img.tileImage,
 #content div.newsImageContainer {
@@ -1601,7 +1602,7 @@ div.overlay label {
   margin-bottom: 0.25em;
 }
 div.overlay a:hover {
-  color: #333333;
+  color: #9999cc;
 }
 div.overlay a.selected {
   color: #000000;
