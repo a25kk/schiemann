@@ -586,10 +586,10 @@ form.searchPage input.searchButton {
   line-height: 1.5em;
   float: right !important;
   padding: 0px 0px 0px 0px !important;
-  margin: 0px 0px 0px 0px !important;
+  margin: 0px 50px 0px 0px !important;
   vertical-align: top !important;
   background: transparent;
-  width: 30%;
+  width: 25%;
   min-height: 300px;
 }
 #sidebar-left {
@@ -1967,25 +1967,25 @@ dd.portletItem .navTreeItem a {
   font-weight: normal;
   font-size: 0.9em !important;
   text-align: left;
+  text-transform: uppercase;
 }
 .navTreeItem a:hover {
-  color: white !important;
-  background: #5E5671;
-}
-.navTreeItem a:hover {
-  color: white !important;
-  background: #5E5671;
+  color: #9999cc !important;
 }
 .navTreeCurrentItem {
-  color: white !important;
+  color: #9999cc !important;
   text-transform: none;
-  background: #5E5671;
+  background-color: transparent !important;
+  margin-left: 0 !important;
 }
 .hasChildrens {
   border: 1px solid red;
 }
 .contenttype-formfolder img {
   display: none;
+}
+.contenttype-folder img {
+  display: none !important;
 }
 .contenttype-specialoffercategory img {
   display: none;
