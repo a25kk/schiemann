@@ -1,7 +1,4 @@
 Introduction
 ============
 
-This is a blueprint buildout useful to kickstart new projects.
-This buildout should not be used directly, but is best downloaded
-or cloned to a new repository.
-
+This repository holds the configuration and site packages for the buildout-based website.
