@@ -15,9 +15,9 @@ env.port = '22222'
 env.user = 'root'
 env.hosts = ['z7']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/plonesite/buildout.plonesite'
-env.local_root = '/Users/sd/dev/schiemann/buildout.schiemann'
-env.sitename = 'plonesite'
+env.code_root = '/opt/sites/schiemann/buildout.schiemann'
+env.local_root = '/Users/sd/dev/dcs/buildout.schiemann'
+env.sitename = 'schiemann'
 env.code_user = 'root'
 env.prod_user = 'www'
 
@@ -48,4 +48,4 @@ def rebuild():
 @task
 def get_data():
     """ Copy live database for local development """
-    project.db.download_data()
+    project.db.download()
